@@ -1,18 +1,12 @@
-本仓库的文件由以下步骤得到(https://sourceforge.net/u/uecasm/etherlab-patches/ci/default/tree/#readme):
+本仓库的文件由以下步骤得到(https://sourceforge.net/u/uecasm/etherlab-patches/ci/default/tree/#readme):<br>
 
-1,Install Mercurial, if you don't already have it, eg:
-
-sudo apt install mercurial
-
-2,Create or edit your ~/.hgrc file and ensure it has at least the following contents:
-
-[ui]
-
-username = yourname
-
-[extensions]
-
-mq =
+1,Install Mercurial, if you don't already have it, eg:<br>
+sudo apt install mercurial<br>
+2,Create or edit your ~/.hgrc file and ensure it has at least the following contents:<br>
+[ui]<br>
+username = yourname<br>
+[extensions]<br>
+mq =<br>
 
 3,Clone the main upstream repository:
 
