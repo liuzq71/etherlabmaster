@@ -7,25 +7,14 @@ sudo apt install mercurial<br>
 username = yourname<br>
 [extensions]<br>
 mq =<br>
-
-3,Clone the main upstream repository:
-
-hg clone -u 33b922ec1871 http://hg.code.sf.net/p/etherlabmaster/code etherlab
-
-4,Clone the patch repository:
-
-hg clone http://hg.code.sf.net/u/uecasm/etherlab-patches etherlab/.hg/patches
-
-5,Apply the patches:
-
-cd etherlab
-
-hg qpush -a
-
-6,You're now ready to build, as usual:
-
-./bootstrap
-
-./configure --help
-
-And then choose the options you wish, and follow the rest of the instructions in the INSTALL file.
+3,Clone the main upstream repository:<br>
+hg clone -u 33b922ec1871 http://hg.code.sf.net/p/etherlabmaster/code etherlab<br>
+4,Clone the patch repository:<br>
+hg clone http://hg.code.sf.net/u/uecasm/etherlab-patches etherlab/.hg/patches<br>
+5,Apply the patches:<br>
+cd etherlab<br>
+hg qpush -a<br>
+6,You're now ready to build, as usual:<br>
+./bootstrap<br>
+./configure --help<br>
+And then choose the options you wish, and follow the rest of the instructions in the INSTALL file.<br>
