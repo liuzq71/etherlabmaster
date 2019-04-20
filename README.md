@@ -25,13 +25,13 @@ hg clone http://hg.code.sf.net/u/uecasm/etherlab-patches etherlab/.hg/patches
 5,Apply the patches:
 
 cd etherlab
+
 hg qpush -a
-
-
 
 6,You're now ready to build, as usual:
 
 ./bootstrap
+
 ./configure --help
 
 And then choose the options you wish, and follow the rest of the instructions in the INSTALL file.
