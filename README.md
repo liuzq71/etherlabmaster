@@ -5,9 +5,13 @@
 sudo apt install mercurial
 
 2,Create or edit your ~/.hgrc file and ensure it has at least the following contents:
+
 [ui]
+
 username = yourname
+
 [extensions]
+
 mq =
 
 3,Clone the main upstream repository:
